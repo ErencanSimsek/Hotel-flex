@@ -1,0 +1,30 @@
+:root{
+    --white:#fff;
+    --black:#333;
+    --primary:#FFE9A9;
+    --secondry:#73A5CA;
+    --light:#FFCB56;
+    --dark:#FF933E;
+}
+
+/*background-color*/
+.bg-primary{background-color: var(--primary);}
+.bg-secondry{background-color: var(--secondry);}
+.bg-light{background-color: var(--light);}
+.bg-dark{background-color: var(--dark);}
+
+/*button*/
+.btn{
+    display: inline-block;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 8px;
+    color: var(--white);
+    box-shadow: 1px 1px;
+}
+.btn:hover{
+    opacity: 0.9;
+}
+
+/*flex-items*/
+/*flex-grid*/
