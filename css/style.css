@@ -13,7 +13,7 @@ html{
 body{
     font-family: "Lato", sans-serif;
     font-size: 1.6rem;
-    font-weight: 300;
+    font-weight: 500;
     font-style: normal;
     line-height: 25px;
     background-color: var(--white);
@@ -47,6 +47,31 @@ ul{
 .main-header li{
     margin: 0 30px;
 }
-.main-header li:hover{
+.main-header a:hover{
     border-bottom: 2px solid var(--secondry);
+}
+.main-header a{
+    color: var(--black);
+}
+/*header*/
+.bg-img{
+    background: url('/img/bg-1.jpeg');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-img div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(127, 127, 127, 0.6);
+    height: 100%;
+}
+.bg-img h1,p{
+    color: var(--white);
+    margin-bottom: 30px;
 }
