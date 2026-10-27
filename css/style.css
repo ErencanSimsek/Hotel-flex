@@ -29,3 +29,24 @@ ul{
 .text-center{
     text-align: center;
 }
+/*header*/
+.main-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top:0;
+    z-index: 1;
+    width: 100%;
+    height: 75px;
+    opacity: 0.8;
+}
+.main-header ul{
+    display: flex;
+}
+.main-header li{
+    margin: 0 30px;
+}
+.main-header li:hover{
+    border-bottom: 2px solid var(--secondry);
+}
