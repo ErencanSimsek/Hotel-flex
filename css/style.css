@@ -71,7 +71,7 @@ ul{
     background-color: rgba(127, 127, 127, 0.6);
     height: 100%;
 }
-.bg-img h1,p{
+.bg-img h1,.bg-img p{
     color: var(--white);
     margin-bottom: 30px;
 }
