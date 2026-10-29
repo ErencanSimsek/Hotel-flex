@@ -75,3 +75,7 @@ ul{
     color: var(--white);
     margin-bottom: 30px;
 }
+
+img{
+    width: 100%;
+}
