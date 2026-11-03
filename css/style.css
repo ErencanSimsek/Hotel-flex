@@ -76,3 +76,17 @@ img{
     color: var(--white);
     margin-bottom: 30px;
 }
+/*rooms*/
+#room .card-body{
+    text-align: center;
+    color: white;
+    padding: 40px 0px;
+}
+/*teams*/
+#team img{
+    border-radius: 50%;
+}
+#team .card-body{
+    text-align: center;
+    padding: 40px 0;
+}
