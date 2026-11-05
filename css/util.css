@@ -60,7 +60,7 @@
     align-items: center;
     gap: 20px;
 }
-.flex-columns .column .column-2 div{
+.flex-columns .column .column-2>div{
     width: 400px;
     display: flex;
     flex-direction: column;
