@@ -88,3 +88,16 @@
     flex: 25%;
     padding: 0 .4rem;
 }
+
+/*mobile*/
+@media(max-width:600px){
+    .flex-item{
+        flex-direction: column;
+    }
+    .flex-columns .column{
+        flex: 100%;
+    }
+    .flex-grid .column{
+        flex: 50%;
+    }
+}
